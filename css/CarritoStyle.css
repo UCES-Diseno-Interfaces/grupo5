@@ -1,0 +1,42 @@
+/* Carrito de compras */
+
+/* Div del carro (Fondo) */
+.seccion_carro
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+/* Tabla del Carrito */
+.seccion_tabladecompras {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.seccion_tabladecompras th, td {
+    border: 3px solid black;
+    color: white;
+    background-color:rgb(49, 49, 49);
+    outline: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+/* Forzado de ancho de columnas de la tabla */
+.seccion_tabladecompras th:nth-child(1),
+.seccion_tabladecompras td:nth-child(1) {
+    width: 60%;
+}
+.seccion_tabladecompras th:nth-child(2),
+.seccion_tabladecompras td:nth-child(2) {
+    width: 30%;
+}
+.seccion_tabladecompras th:nth-child(3),
+.seccion_tabladecompras td:nth-child(3) {
+    width: 10%;
+}

@@ -39,12 +39,10 @@
     display: flex;
 }
 
-
 .header1 img{
     height: 100%;
     width: 100%;
 }
-
 
 .buscador{
     width: 100%;
@@ -120,15 +118,12 @@
     height: 100%;
 }
 
-
 .footer1{
     width: 100vw;
     height: 10vh;
     background-color: limegreen;
     display: flex;
 }
-
-
 
 .nav{
     height: 100%;
@@ -137,5 +132,3 @@
     background-color: black;
     
 }
-
-
