@@ -1,16 +1,30 @@
-/* Carrito de compras */
+/* ---------- Carrito de compras ---------- */
 
-/* Div del carro (Fondo) */
+/* ---------- Divs del carro ---------- */
 .seccion_carro
 {
     width: 100%;
     height: 100%;
     background-color: black;
+}
+.seccion_tabladecompras
+{
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+}
+.seccion_tabladeprecios
+{
+    width: 100%;
+    height: 30%;
     justify-content: center;
 }
 
-/* Tabla del Carrito */
-.seccion_tabladecompras {
+/* ---------- Tablas del Carrito ---------- */
+
+/* ---------- Tablas de Compras ---------- */
+.tabladecompras
+{
     width: 80%;
     height: auto;
     margin-left: auto;
@@ -18,8 +32,10 @@
     border-collapse: separate;
     border-spacing: 10px;
 }
-.seccion_tabladecompras th, td {
-    border: 3px solid black;
+.tabladecompras th,
+.tabladecompras td
+{
+    border: 1px solid white;
     color: white;
     background-color:rgb(49, 49, 49);
     outline: 1px solid white;
@@ -27,16 +43,41 @@
     padding: 10px;
     height: auto;
 }
-/* Forzado de ancho de columnas de la tabla */
-.seccion_tabladecompras th:nth-child(1),
-.seccion_tabladecompras td:nth-child(1) {
-    width: 60%;
+.tabladecompras th:nth-child(1),
+.tabladecompras td:nth-child(1)
+{
+    width: 50%; /*ancho de la primer columna*/
 }
-.seccion_tabladecompras th:nth-child(2),
-.seccion_tabladecompras td:nth-child(2) {
-    width: 30%;
+.tabladecompras th:nth-child(2),
+.tabladecompras td:nth-child(2)
+{
+    width: 35%; /*ancho de la segunda columna*/
 }
-.seccion_tabladecompras th:nth-child(3),
-.seccion_tabladecompras td:nth-child(3) {
-    width: 10%;
+.tabladecompras th:nth-child(3),
+.tabladecompras td:nth-child(3)
+{
+    width: 15%; /*ancho de la tercer columna*/
+}
+.tabladecompras tr:first-child th,
+.tabladecompras tr:first-child td
+{
+    text-align: center; /*centrado de la primer fila*/
+}
+
+/* ---------- Tablas de precios ---------- */
+.tabladeprecios
+{
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.tabladeprecios th,
+.tabladeprecios td
+{
+    border: 1px solid gray;
+    padding-inline: 10px;
+    color: gray;
+    height: auto;
 }
