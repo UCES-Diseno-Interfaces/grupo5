@@ -107,18 +107,27 @@
 }
 
 .card{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
     min-width: 10%;
     max-width: 50%;
     min-height: 10%;
-    max-height: 50%;
+    max-height: 65%;
     margin: 3rem;
 }
 
+a{
+    background-color: black;
+
+}
+
 .imgMainSegundo{
-    min-width: 13rem;
-    max-width: 13rem;
-    min-height: 13rem;
-    max-height: 13rem;
+    min-width: 14rem;
+    max-width: 14rem;
+    min-height: 14rem;
+    max-height: 14rem;
 }
 
 .footer1{
