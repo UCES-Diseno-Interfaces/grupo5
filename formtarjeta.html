@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/FormTarjetaStyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Formulario de Pago</title>
+</head>
+<body class="content">
+  <header class="header">
+    <div class="estructuraHeader">
+      <div class="header1">
+        <a href="https://www.google.com.ar/" class="imagenPeliculas"><img src="./img/logo.png"></a>
+      </div>
+      <div class="header2">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="estructuraMain">
+      <div class="mainPrimero">
+        <div class="nav">
+          <a class="nav-link" href="index.html" style="color:blanchedalmond;">Inicio</a>
+          <a class="nav-link" href="index.html" style="color:blanchedalmond;">Peliculas</a>
+          <a class="nav-link" href="index.html" style="color:blanchedalmond;">Series</a>
+          <a class="nav-link" href="index.html" style="color:blanchedalmond;">Contactenos</a>
+          <a class="nav-link" href="index.html" style="color:blanchedalmond;">Subscribite</a>
+        </div>
+      </div>
+      <div class="mainSegundo">
+        <div class="seccionformtarjetas">
+          <H5>Ingrese los datos de su tarjeta</H5>
+          <form class="formdetarj">
+            <label for="tarjeta">Seleccione la entidad emisora de su tarjeta:</label>
+            <div>
+              <select id="card" name="card">
+                <option value="Seleccione Uno" selected disabled>Seleccione Uno</option>
+                <option value="Visa">Visa</option>
+                <option value="Master">Master Card</option>
+                <option value="Amex">American Express</option>
+              </select>
+            </div>
+            <div>
+              <label for="nro">Numero de la tarjeta:</label><br>
+              <input type="text" id="nro" name="nro"><br>
+              <label for="vto">Vencimiento:</label><br>
+              <input type="month" id="vto" name="vto"><br><br>
+              <label for="segcode">Código de Seguridad:</label><br>
+              <input type="password" id="segcode" name="segcode"><br>
+              <label for="tarjname">Nombre como figura en la tarjeta:</label><br>
+              <input type="text" id="tarjname" name="tarjname"><br><br>
+            </div>
+          </form>
+          <H5>Ingrese los siguientes datos para su factura</H5>
+          <form class="formdetarj">
+            <div>
+              <label for="name">Nombre</label><br>
+              <input type="text" id="name"><br>
+              <label for="2ndname">Apellido</label><br>
+              <input type="text" id="2ndname"><br>
+              <label for="adress">Calle</label><br>
+              <input type="text" id="adress"><br>
+              <label for="numadress">Numero</label><br>
+              <input type="text" id="numadress"><br>
+            </div>
+            <p>Seleccione su sexo:</p>
+            <div style="display: flex; flex-direction: row; gap: 10px;">
+              <input type="radio">
+              <label>Hombre</label><br>
+              <input type="radio">
+              <label>Mujer</label><br>
+              <input type="radio">
+              <label>Otro</label>
+            </div>
+          </form>
+        </div>
+        <div class="seccionbotones">
+          <input class="botondesubmit" type="submit" value="Enviar">
+          <input class="botondesubmit" type="reset" value="Cancelar">
+        </div>
+      </div>  
+    </div>      
+  </main>
+</body>
+<footer>
+  <div class="footer1">
+    <h3>FOOTER</h3>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
