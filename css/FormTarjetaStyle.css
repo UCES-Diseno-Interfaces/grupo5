@@ -1,0 +1,60 @@
+/* ---------- CSS del Formulario de Tarjetas ---------- */
+
+/* ---------- Divs de Página ---------- */
+.seccionformtarjetas
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: top, center;
+    align-items: center;
+    gap: 10px;
+}
+.seccionbotones
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ---------- Form de Pago ---------- */
+.formdetarj
+{
+    border: 1px solid white;
+    color: white;
+    background-color:rgb(49, 49, 49);
+    outline: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 60%;
+}
+
+/* ---------- Boton de Pago ---------- */
+.botondesubmit
+{
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 16px 32px;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.botondesubmit:hover 
+{
+    background-color: red;
+    color: white;
+}
