@@ -39,6 +39,16 @@
     height: auto;
     width: 60%;
 }
+input, select
+{
+    width: 100%;
+}
+
+.divformpagoselect
+{
+    display: flex;
+    gap: 10px;
+}
 
 /* ---------- Boton de Pago ---------- */
 .botondesubmit
@@ -57,4 +67,12 @@
 {
     background-color: red;
     color: white;
+}
+
+@media screen and (max-width: 450px)
+{
+.divformpagoselect
+{
+    flex-direction: column;
+}
 }

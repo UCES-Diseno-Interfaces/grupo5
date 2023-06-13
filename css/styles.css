@@ -34,7 +34,7 @@
     height: 100%;
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: center;
 }
 
 .header1 img{
@@ -70,7 +70,7 @@
 
 .mainSegundo{
     min-height: 100vh;
-    max-width: 100%;
+    width: 100%;
     display: flex; 
     flex-wrap: wrap;
 }

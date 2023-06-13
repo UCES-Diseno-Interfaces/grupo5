@@ -41,8 +41,8 @@
 {
     border: 1px solid white;
     color: white;
-    background-color:rgb(49, 49, 49);
-    outline: 1px solid white;
+    /*background-color:rgb(49, 49, 49);
+    outline: 1px solid white;*/
     border-radius: 10px;
     padding: 10px;
     height: auto;
@@ -61,11 +61,12 @@
 .tabladecompras td:nth-child(3)
 {
     width: 15%; /*ancho de la tercer columna*/
+    text-align: center;
 }
-.tabladecompras tr:first-child th,
-.tabladecompras tr:first-child td
+.tabladecompras thead, tfoot
 {
     text-align: center; /*centrado de la primer fila*/
+    background-color: rgb(30, 30, 30);
 }
 
 /* ---------- Texto del monto final ---------- */
