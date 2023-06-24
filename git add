@@ -1,0 +1,83 @@
+[33mcommit 296dd2ac3b1f6a491baae96a69fda3bbf0816d0b[m[33m ([m[1;36mHEAD -> [m[1;32mchino[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: e1ac5af e99b898
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Sat Jun 3 16:37:08 2023 -0300
+
+    Merge pull request #6 from UCES-Diseno-Interfaces/develop
+    
+    Develop
+
+[33mcommit e99b89851e714e9fe7fdb9cb32308557c3efc8f9[m[33m ([m[1;31morigin/develop[m[33m)[m
+Merge: 2151682 d17a4c5
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Sat Jun 3 16:35:05 2023 -0300
+
+    Merge pull request #5 from UCES-Diseno-Interfaces/damian
+    
+    arreglo en div
+
+[33mcommit d17a4c5b335f771f363a12e3f7ea99de15a84675[m[33m ([m[1;31morigin/damian[m[33m)[m
+Author: damianzamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Sat Jun 3 16:33:44 2023 -0300
+
+    arreglo en div
+
+[33mcommit e1ac5af7266f4b44b8330bbc74c4f8812ebbb86a[m
+Merge: 652c46b 2151682
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Sat Jun 3 16:20:42 2023 -0300
+
+    Merge pull request #4 from UCES-Diseno-Interfaces/develop
+    
+    Develop
+
+[33mcommit 2151682112f33528a0059eb8b1be6fd0bf47f9cc[m
+Merge: a4d756f 32ea250
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Sat Jun 3 16:14:51 2023 -0300
+
+    Merge pull request #3 from UCES-Diseno-Interfaces/damian
+    
+    estructura principal de pagina
+
+[33mcommit 32ea2500490c11c64f2ab63d59c00c3a2a7d7b50[m
+Author: damianzamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Sat Jun 3 16:03:23 2023 -0300
+
+    estructura principal de pagina
+
+[33mcommit a4d756f845e2e76b9f91d2aafb7363ef10c9d982[m
+Merge: 0b894c5 e484c56
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Tue May 30 15:22:35 2023 -0300
+
+    Merge pull request #2 from UCES-Diseno-Interfaces/damian
+    
+    creacion rama damian
+
+[33mcommit 652c46be33b6b5c6c78d12909909cd10ae76cbc4[m
+Merge: 0b894c5 e484c56
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Tue May 30 15:20:43 2023 -0300
+
+    Merge pull request #1 from UCES-Diseno-Interfaces/damian
+    
+    creacion rama damian
+
+[33mcommit e484c562a2088ee75cb616e4fa24fcb13ad381c7[m
+Author: damianzamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Tue May 30 15:17:21 2023 -0300
+
+    creacion rama damian
+
+[33mcommit 0b894c5840c1bd01701ddf2880133150a2343732[m
+Author: damianzamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Tue May 30 15:14:36 2023 -0300
+
+    primer commit main
+
+[33mcommit a09430e23d5b8a36aa05c4c6d0033bc80bf65c14[m
+Author: Damian Pablo Zamora <63264380+damianzamora@users.noreply.github.com>
+Date:   Tue May 30 15:11:58 2023 -0300
+
+    Initial commit
