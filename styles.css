@@ -1,0 +1,345 @@
+
+.content{
+    padding-left: 5rem;
+    max-width: 90vw;
+    min-height: 100vh;
+    background-color: rgb(16, 20, 24);
+}
+
+/*/////////////////////////////////////////// Header*/
+
+.header{
+    width: 90vw;
+    min-height: 15%;
+    display: flex; 
+    background-color: black;
+    padding-top: 0.5rem;
+}
+
+.estructuraHeader{
+    display: flex;
+    padding-left: 10rem;
+    width: 90vw;
+    min-height: 15vh;
+}
+
+.header1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    height: 100%;
+}
+
+.header2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.header1 img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.navOculto{
+    display:none;
+}
+
+/*/////////////////////////////////////////// MAIN */
+.main{
+    width: 90vw;
+    min-height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+.estructuraMain{
+    display: flex;
+    padding-left: 10rem;
+    width: 90vw;
+    min-height: 100vh;
+}
+
+.mainSegundo{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.mainMasVistas{
+    min-height: 33.3333333333%;
+    max-height: 100%;
+    width: 90vw;
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    flex-direction: column;
+}
+
+.seccionMiniaturas{
+    min-height: 90%;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10rem;
+}
+
+.subTituloMain{
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    min-height: 20%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.subTituloMain h5{
+    color: whitesmoke;
+}
+
+.card{
+    display: flex;
+}
+
+.imgMainSegundo{
+    min-width: 13rem;
+    max-width: 13rem;
+    min-height: 13rem;
+    max-height: 13rem;
+}
+
+.footer1{
+    background-color: lightcyan;
+    width: 90vw;
+    height: 30vh;
+    display: flex;
+}
+
+
+/*//////////////////////////////////////////////////////   @mediaQuery ////*/
+@media screen and (max-width: 1700px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .seccionMiniaturas{
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .subTituloMain{
+        min-height: 5%;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .mainMasVistas{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .seccionMiniaturas{
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .subTituloMain{
+        min-height: 5%;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .content{
+        padding-left: 0rem;
+    }
+    .estructuraHeader{
+        padding-left: 0.5rem;
+    }
+    .header{
+        position: relative;
+    }
+    .estructuraMain{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .header{
+        flex-direction: column;
+    }
+    .header1{
+        flex-direction: row-reverse;
+    }
+
+    .header2{
+        padding-top: 0.5rem;
+    }
+
+    .header1 img{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .logoCarrito{
+        width: 25px!important; 
+        height: 25px!important;
+    }
+
+    .navOculto{
+        display:contents;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .imgMainSegundo{
+        min-width: 8rem;
+        max-width: 8rem;
+        min-height: 8rem;
+        max-height: 8rem;
+    }
+
+    .seccionMiniaturas{
+        gap: 2rem;
+    }
+
+    .subTituloMain{
+        min-height: 3%;
+        align-items: center;
+        padding: 0.5rem;
+    }
+}
+
+
+
+/*////////// form*/
+
+.formulario{
+    border: 1px solid white;
+    position: absolute;
+    left: 35%;
+    top: 12.5%;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    background: rgb(49, 49, 49);
+    border-radius: 15px;
+    display: flex;
+    justify-content: top, center;
+    flex-direction: column;
+    align-items: 50%;
+
+}
+.formulario h1 {
+    text-align: center;
+    color: red;
+    border-bottom: 1px solid white; 
+}
+form .usuario{
+    position: relative;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+}
+.usuario input{
+    width: 100%;
+    height: 15%;
+    font-size: 13.5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.usuario label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+form .contrasena{
+    position: relative;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+}
+.contrasena input{
+    width: 100%;
+    height: 15%;
+    font-size: 13.5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.contrasena label{
+    position: relative;
+    left: 5px;
+    top: -3px;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+form .recuperar{
+    color: white;
+    position: relative;
+    left: 1%;
+}
+
+form .recuperar input{
+    width: 25%;
+    height: 25px;
+    border: 3px solid;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+form .sesion{
+    position: relative;
+    padding: 10px 0 10px 15px;
+    margin: 5px;
+}
+form .sesion input{
+    width: 94%;
+    height: 40px;
+    border: 3px solid;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+
+form .cuenta input{
+    width: 100%;
+    height: 40px;
+    border: 3px solid;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+
