@@ -1,0 +1,186 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: top, center;
+    align-items: center;
+    gap: 10px;
+}
+.formulario{
+    border: 1px solid white;
+    position: absolute;
+    left: 35%;
+    top: 12.5%;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    background: rgb(49, 49, 49);
+    border-radius: 15px;
+    display: flex;
+    justify-content: top, center;
+    flex-direction: column;
+    align-items: 50%;
+}
+
+.formulario h1 {
+    text-align: center;
+    color: red;
+    border-bottom: 1px solid white; 
+}
+form .nombre{
+    position: relative;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+    left: 5px;
+}
+.nombre input{
+    width: 100%;
+    height: 15%;
+    font-size: 13.5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.nombre label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+form .numero{
+    position: relative;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+    left: 5px;
+}
+.numero input{
+    width: 100%;
+    height: 15%;
+    font-size: 13.5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.numero label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+form .correo{
+    position: relative;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+    left: 5px;
+}
+
+.correo input{
+    width: 100%;
+    height: 15%;
+    font-size: 13.5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.correo label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+form .mensaje{
+    font-size: 20px;
+    position: relative;
+    margin: 5px;
+    color: white;
+    left: 10px;
+}
+
+form .perso{
+    font-size: 20;
+    position: relative;
+    margin: 5px;
+    color: white;
+    padding: 0 0 25px 0;
+    left: 20px;
+}
+
+.seccionbotones
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+form .enviar{
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 16px 32px;
+    width: 30%;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    height: 15px;
+}
+.enviar input{
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+}
+form .cancelar{
+border: 1px solid white;
+color: white;
+font-weight: bold;
+background-color: black;
+padding: 16px 32px;
+font-size: 16px;
+transition-duration: 0.3s;
+cursor: pointer;
+border-radius: 10px;
+border: 3px solid;
+background-color: red;
+border-radius: 50px;
+text-align: center;
+color: black;
+outline: none;
+cursor: pointer;
+height: 15px;
+}
+.cancelar input{
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+}
+
+form .perso .duda{
+    font-size: 20px;
+}
+form .perso .mail{
+    font-size: 25px;
+}
