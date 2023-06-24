@@ -16,6 +16,9 @@
         <a href="https://www.google.com.ar/" class="imagenPeliculas"><img src="./img/logo.png"></a>
       </div>
       <div class="header2">
+        <div>
+          <a href="carrito.html"><img src="img/carrito-de-compras.png"></a> 
+        </div>
       </div>
     </div>
   </header>
@@ -67,13 +70,19 @@
               <input type="text" id="numadress"><br>
             </div>
             <p>Seleccione su sexo:</p>
-            <div style="display: flex; flex-direction: row; gap: 10px;">
-              <input type="radio">
-              <label>Hombre</label><br>
-              <input type="radio">
-              <label>Mujer</label><br>
-              <input type="radio">
-              <label>Otro</label>
+            <div class="divformpagoselect">
+              <div style="display:flex; flex-direction: row;">
+                <input type="radio">
+                <label style="display: grid; place-items: center; margin: auto; padding: 5px;">Hombre</label><br>
+              </div>
+              <div style="display:flex;">
+                <input type="radio">
+                <label style="display: grid; place-items: center; margin: auto; padding: 5px;">Mujer</label><br>
+              </div>
+              <div style="display:flex;">
+                <input type="radio">
+                <label style="display: grid; place-items: center; margin: auto; padding: 5px;">Otro</label>
+              </div>
             </div>
           </form>
         </div>
