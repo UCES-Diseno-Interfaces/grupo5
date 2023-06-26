@@ -1,89 +1,40 @@
 /* ---------- CSS del Carrito de compras ---------- */
 
 /* ---------- Divs de Página ---------- */
-.seccion_carro
+.estructuraMainCompras
 {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-}
-.seccion_tabladecompras
-{
-    width: 100%;
-    height: 70%;
     display: flex;
+    width: 90vw;
+    min-height: 100vh;
     flex-direction: column;
-    justify-content: top, center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
 }
-.seccion_tabladeprecios
-{
-    width: 100%;
-    height: 30%;
-    justify-content: center;
-}
-
-/* ---------- Diferentes Divs del Carrito ---------- */
-
 /* ---------- Tabla de Compras ---------- */
 .tabladecompras
 {
-    width: 80%;
+    width: auto;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: separate;
     border-spacing: 10px;
 }
 .tabladecompras th,
 .tabladecompras td
 {
-    border: 1px solid white;
     color: white;
-    /*background-color:rgb(49, 49, 49);
-    outline: 1px solid white;*/
-    border-radius: 10px;
     padding: 10px;
     height: auto;
 }
-.tabladecompras th:nth-child(1),
-.tabladecompras td:nth-child(1)
+.tabladecompras img
 {
-    width: 50%; /*ancho de la primer columna*/
+    display: flex;
+    max-height: 90px;
 }
-.tabladecompras th:nth-child(2),
-.tabladecompras td:nth-child(2)
+.tabladecompras thead, 
+.tabladecompras tfoot
 {
-    width: 35%; /*ancho de la segunda columna*/
+    text-align: start;
+    background-color: rgb(25, 25, 25);
 }
-.tabladecompras th:nth-child(3),
-.tabladecompras td:nth-child(3)
-{
-    width: 15%; /*ancho de la tercer columna*/
-    text-align: center;
-}
-.tabladecompras thead, tfoot
-{
-    text-align: center; /*centrado de la primer fila*/
-    background-color: rgb(30, 30, 30);
-}
-
-/* ---------- Texto del monto final ---------- */
-.txttotal 
-{
-    font-weight: bold;
-    font-size: 16px;
-    border: 1px solid white;
-    color: white;
-    background-color:rgb(49, 49, 49);
-    outline: 1px solid white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 /* ---------- Boton de Pago ---------- */
 .botondepago
 {
@@ -102,7 +53,6 @@
     background-color: red;
     color: white;
 }
-
 /* ---------- Tablas de precios ---------- */
 .tabladeprecios
 {
@@ -126,4 +76,21 @@
 {
     font-size: 12px;
     color:gray;
+}
+
+/* ---------- Sobre Nosotros ---------- */
+.textosobrenos
+{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ---------- MediaQuery ---------- */
+@media screen and (max-width: 475px)
+{
+    .tabladecompras img
+    {
+        display: none;
+    }
 }
