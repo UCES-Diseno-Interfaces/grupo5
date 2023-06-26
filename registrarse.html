@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/Contactos.css">
-    
+    <link rel="stylesheet" href="css/registrarse.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Contactos</title>
+    <title>Registro</title>
 </head>
 <body class="content">
          <header class="header">
@@ -49,19 +48,19 @@
             <div class="navOculto">
                 <div class="collapse" id="navbarToggleExternalContent">
                     <div class="bg-dark p-4">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link" href="index.html" style="color:whitesmoke;">Inicio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contactos.html" style="color:whitesmoke;">Contactenos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="inciosesion.html" style="color:whitesmoke;">Iniciar Sesion</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="sobrenos.html" style="color:whitesmoke;">Sobre Nosotros</a>
-                          </li>
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html" style="color:whitesmoke;">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contactos.html" style="color:whitesmoke;">Contactenos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="inciosesion.html" style="color:whitesmoke;">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="sobrenos.html" style="color:whitesmoke;">Sobre Nosotros</a>
+                        </li>
                           </ul>
                     </div>
                 </div> 
@@ -70,51 +69,40 @@
         <main class="main">
           <div class="estructuraMain">
               <div class="mainSegundo">
-                  <div class="formulario">
-                      <h1> Contactenos</h1>
+                  <div class="registrar">
+                      <h1> Regístrese</h1>
                       <form method="post"> 
-                          <div class="nombre"> 
+                          <div class="nombrer"> 
                               <label>Nombre</label>
                               <input type="text" required> 
                           </div>
                           <br>
-                          <div class="numero">
-                               <label>Teléfono/Celular</label> 
-                              <input type="number" required>    
+                          <div class="contra">
+                               <label>Contraseña</label> 
+                              <input type="password" required>    
                           </div>
                           <br>
-                          <div class="correo">
-                              <label>Correo electronico </label>
-                              <input type="text" required>  
+                          <div class="vuelva">
+                              <label>Vuelva a ingresar</label>
+                              <input type="password" required>  
                           </div>
                           <br>
-                          <div class="mensaje">
-                             <label>Cual es su motivo?</label>
-                             <select name="mensaje">
-                              <option selected>Consulta</option>
-                              <option>Queja</option>
-                              <option>Problemas con la página</option>
-                              <option>Problemas con pago</option>
-                              <option>Pregunta</option>
-                             </select>
+                          <div class="correor">
+                             <label>Correo electrónico</label>
+                             <input type="text" required>
                           </div>
                           <br>
-                          <div class="botonees">
-                              <div class="enviar">
-                              <input class="botonenviare" type="submit" value="Enviar">
+                          <div class="celu">
+                              <label>Teléfono/celular</label>
+                              <input type="number" required>
+                           </div>
+                           <br>
+                          <div class="botones">
+                              <div class="envia">
+                              <input class="botonsubmit" type="submit" value="Enviar">
                               </div>
-                              <div class="cancelar">
-                              <input class="botonenviar" type="reset" value="Cancelar">
-                              </div>
-                            </div>
-                          <br>
-                          <div class="perso">
-                              <div class="duda">
-                              <label>Otra duda que tenga, contactenos al siguiente mail: </label>
-                              </div>
-                              <br>
-                              <div class="mail">
-                              <label>grupo5ddi@gmail.com</label>
+                              <div class="cance">
+                              <input class="botonsubmit" type="reset" value="Cancelar">
                               </div>
                           </div>
                       </form>

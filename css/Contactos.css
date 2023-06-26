@@ -29,7 +29,7 @@ form .nombre{
 .nombre input{
     width: 100%;
     height: 15%;
-    font-size: 13.5px;
+    font-size: 20px;
     border: none;
     background: none;
     outline: none;
@@ -52,7 +52,7 @@ form .numero{
 .numero input{
     width: 100%;
     height: 15%;
-    font-size: 13.5px;
+    font-size: 20px;
     border: none;
     background: none;
     outline: none;
@@ -76,7 +76,7 @@ form .correo{
 .correo input{
     width: 100%;
     height: 15%;
-    font-size: 13.5px;
+    font-size: 20px;
     border: none;
     background: none;
     outline: none;
@@ -115,58 +115,49 @@ form .perso{
     display: flex;
     justify-content: center;
 }
-form .enviar{
+.botonees
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.botonenviar
+{
     border: 1px solid white;
     color: white;
     font-weight: bold;
     background-color: black;
     padding: 16px 32px;
-    width: 30%;
     font-size: 16px;
     transition-duration: 0.3s;
     cursor: pointer;
     border-radius: 10px;
-    border: 3px solid;
+}
+.botonenviar:hover 
+{
     background-color: red;
-    border-radius: 50px;
-    text-align: center;
-    color: black;
-    outline: none;
+    color: white;
+}
+.botonenviare
+{
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 16px 75px;
+    font-size: 16px;
+    transition-duration: 0.3s;
     cursor: pointer;
-    height: 15px;
+    border-radius: 10px;
+    
 }
-.enviar input{
-    border: none;
-    background: none;
-    outline: none;
-    color: black;
+.botonenviare:hover 
+{
+    background-color: red;
+    color: white;
 }
-form .cancelar{
-border: 1px solid white;
-color: white;
-font-weight: bold;
-background-color: black;
-padding: 16px 32px;
-font-size: 16px;
-transition-duration: 0.3s;
-cursor: pointer;
-border-radius: 10px;
-border: 3px solid;
-background-color: red;
-border-radius: 50px;
-text-align: center;
-color: black;
-outline: none;
-cursor: pointer;
-height: 15px;
-}
-.cancelar input{
-    border: none;
-    background: none;
-    outline: none;
-    color: black;
-}
-
 form .perso .duda{
     font-size: 20px;
 }

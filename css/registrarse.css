@@ -1,4 +1,4 @@
-.formulario{
+.registrar{
     border: 1px solid white;
     position: absolute;
     left: 35%;
@@ -12,20 +12,23 @@
     justify-content: top, center;
     flex-direction: column;
     align-items: 50%;
-
+    padding-bottom: 1%;
 }
-.formulario h1 {
+
+.registrar h1 {
     text-align: center;
     color: red;
     border-bottom: 1px solid white; 
+    padding-bottom: 10px;
 }
-form .usuario{
+.registrar .nombrer{
     position: relative;
     margin: 5px;
     color: white;
-
+    border-bottom: 1px solid white; 
+    left: 5px;
 }
-.usuario input{
+.nombrer input{
     width: 100%;
     height: 15%;
     font-size: 20px;
@@ -33,23 +36,22 @@ form .usuario{
     background: none;
     outline: none;
     color: white;
-    border-bottom: 1px solid white; 
-    padding: 5px;
 }
-.usuario label{
+.nombrer label{
     position: relative;
     top: -3px;
     left: 5px;
     color: gainsboro;
     font-size: 20px;
 }
-form .contrasena{
+form .contra{
     position: relative;
     margin: 5px;
     color: white;
-
+    border-bottom: 1px solid white; 
+    left: 5px;
 }
-.contrasena input{
+.contra input{
     width: 100%;
     height: 15%;
     font-size: 20px;
@@ -57,44 +59,86 @@ form .contrasena{
     background: none;
     outline: none;
     color: white;
-    border-bottom: 1px solid white; 
-    padding: 5px;
 }
-.contrasena label{
+.contra label{
     position: relative;
-    left: 5px;
     top: -3px;
+    left: 5px;
     color: gainsboro;
     font-size: 20px;
-    
 }
-
-form .recuperar{
-    color: white;
+form .vuelva{
     position: relative;
-    left: 1%;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+    left: 5px;
 }
 
-.recuperar input:hover 
-{
-    background-color: red;
+.vuelva input{
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
     color: white;
 }
-
-
-form .recuperar input{
-    border: 1px solid white;
+.vuelva label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+form .correor{
+    position: relative;
+    margin: 5px;
     color: white;
-    font-weight: bold;
-    background-color: black;
-    padding: 16px 32px;
-    font-size: 16px;
-    transition-duration: 0.3s;
-    cursor: pointer;
-    border-radius: 10px;
+    border-bottom: 1px solid white; 
+    left: 5px;
+}
+.correor input{
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.correor label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+form .celu{
+    position: relative;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid white; 
+    left: 5px;
 }
 
-.botonsito
+.celu input{
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.celu label{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    color: gainsboro;
+    font-size: 20px;
+}
+.botones
 {
     width: 100%;
     height: auto;
@@ -102,7 +146,7 @@ form .recuperar input{
     display: flex;
     justify-content: center;
 }
-.botonn
+.botonsubmit
 {
     border: 1px solid white;
     color: white;
@@ -113,11 +157,9 @@ form .recuperar input{
     transition-duration: 0.3s;
     cursor: pointer;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
-.botonn:hover 
+.botonsubmit:hover 
 {
     background-color: red;
     color: white;
 }
-

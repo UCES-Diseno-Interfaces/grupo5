@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/FormTarjetaStyle.css">
+  <link rel="stylesheet" href="css/CarritoStyle.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <title>Formulario de Pago</title>
+  <title>Sobre Nosotros</title>
 </head>
 <body class="content">
   <header class="header">
@@ -68,64 +68,24 @@
   </header> 
   <main class="main">
     <div class="estructuraMainCompras">
-      <div class="mainSegundo">
-        <div class="seccionformtarjetas">
-          <H5>Ingrese los datos de su tarjeta</H5>
-          <form class="formdetarj">
-            <label for="tarjeta">Seleccione la entidad emisora de su tarjeta:</label>
-            <div>
-              <select id="card" name="card">
-                <option value="Seleccione Uno" selected disabled>Seleccione Uno</option>
-                <option value="Visa">Visa</option>
-                <option value="Master">Master Card</option>
-                <option value="Amex">American Express</option>
-              </select>
-            </div>
-            <div>
-              <label for="nro">Numero de la tarjeta:</label><br>
-              <input type="text" id="nro" name="nro"><br>
-              <label for="vto">Vencimiento:</label><br>
-              <input type="month" id="vto" name="vto"><br><br>
-              <label for="segcode">Código de Seguridad:</label><br>
-              <input type="password" id="segcode" name="segcode"><br>
-              <label for="tarjname">Nombre como figura en la tarjeta:</label><br>
-              <input type="text" id="tarjname" name="tarjname"><br><br>
-            </div>
-          </form>
-          <H5>Ingrese los siguientes datos para su factura</H5>
-          <form class="formdetarj">
-            <div>
-              <label for="name">Nombre</label><br>
-              <input type="text" id="name"><br>
-              <label for="2ndname">Apellido</label><br>
-              <input type="text" id="2ndname"><br>
-              <label for="adress">Calle</label><br>
-              <input type="text" id="adress"><br>
-              <label for="numadress">Numero</label><br>
-              <input type="text" id="numadress"><br>
-            </div>
-            <p>Seleccione su sexo:</p>
-            <div class="divformpagoselect">
-              <div style="display:flex; flex-direction: row;">
-                <input type="radio" name="Genero">
-                <label style="display: grid; place-items: center; margin: auto; padding: 5px;">Hombre</label><br>
-              </div>
-              <div style="display:flex;">
-                <input type="radio" name="Genero">
-                <label style="display: grid; place-items: center; margin: auto; padding: 5px;">Mujer</label><br>
-              </div>
-              <div style="display:flex;">
-                <input type="radio" name="Genero">
-                <label style="display: grid; place-items: center; margin: auto; padding: 5px;">Otro</label>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="seccionbotones">
-          <input class="botondesubmit" type="submit" value="Enviar">
-          <input class="botondesubmit" type="reset" value="Cancelar">
-        </div>
-      </div>  
+      <div class="textosobrenos">
+        <h3>
+            ¡Bienvenidos a nuestro sitio web de entretenimiento cinematográfico!<br>
+        </h3>
+        <br>
+        <p>
+            En esta plataforma, hemos creado un espacio dedicado a las películas y series más populares de la actualidad. Nuestro objetivo es brindarte una experiencia de calidad, donde puedas disfrutar de tus contenidos favoritos desde la comodidad de tu hogar.<br>
+            <br>Detrás de este proyecto, nos encontramos un equipo de profesionales comprometidos con ofrecerte lo mejor en entretenimiento. Cada uno de nosotros ha desempeñado un rol específico para hacer de este sitio un lugar único.<br>
+            <br>Damián ha sido el responsable del diseño y la estructura inicial del sitio. Su enfoque en la usabilidad y la experiencia del usuario ha sido fundamental para crear una plataforma intuitiva y fácil de navegar.<br>
+            <br>"El chino" ha trabajado en el desarrollo de funciones clave, como el sistema de registro y el formulario de contacto. Su expertise técnico ha garantizado que estos elementos sean eficientes y seguros para los usuarios.<br>
+            <br>Dante se ha encargado de seleccionar cuidadosamente las películas y series que forman parte de nuestro catálogo. Su pasión por el cine y su conocimiento de las tendencias actuales aseguran que encuentres siempre los contenidos más relevantes y emocionantes.<br>
+            <br>Gaspar ha sido el responsable de implementar un sistema de pagos seguro y confiable, así como de mantener el funcionamiento técnico del sitio en óptimas condiciones. Su dedicación nos permite ofrecerte una experiencia fluida y sin contratiempos.<br>
+            <br>En resumen, nuestro equipo está comprometido en brindarte una plataforma de entretenimiento de calidad, donde puedas disfrutar de las últimas películas y series. Valoramos tu confianza y trabajamos constantemente para ofrecerte lo mejor en contenido y funcionalidad.<br>
+            <br>Explora nuestro catálogo, elige tus películas y series favoritas, y déjanos encargarnos del resto. ¡Bienvenido a nuestra comunidad de amantes del cine y las series!<br>
+            <br>Trabajo realizado para la materia de Diseño de Interfaces<br>
+            <br><img src="./img/Logo-UCES.png">
+        </p>
+      </div>
     </div>      
   </main>
   <footer>
