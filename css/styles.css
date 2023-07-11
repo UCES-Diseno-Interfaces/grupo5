@@ -59,9 +59,16 @@
 
 .estructuraMain{
     display: flex;
+    flex-direction: column;
     padding-left: 10rem;
     width: 90vw;
     min-height: 100vh;
+}
+
+.mainPrimero{
+    min-height: 40vh;
+    width: 100%;
+    padding-bottom: 5rem;
 }
 
 .mainSegundo{
@@ -69,6 +76,7 @@
     max-width: 100%;
     display: flex; 
     flex-wrap: wrap;
+    gap: 5rem;
 }
 
 .mainMasVistas{
@@ -89,31 +97,49 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    gap: 10rem;
+    gap: 2rem;
 }
 
 .subTituloMain{
     display: flex;
-    align-items: flex-start;
-    justify-items: flex-start;
+    justify-content:space-between;
     min-height: 20%;
     max-height: 100%;
-    max-width: 100%;
+    width: 100%;
 }
 
 .subTituloMain h5{
     color: whitesmoke;
 }
 
-.card{
+.cartas{
+    height: auto;
     display: flex;
+    flex-direction: column;
+}
+
+.cartas:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.cartas span{
+    color: white;
+}
+
+.cartas-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
 }
 
 .imgMainSegundo{
     min-width: 13rem;
     max-width: 13rem;
     min-height: 13rem;
-    max-height: 13rem;
+    max-height: 13em;
 }
 
 /*/////////////////////////////////////////// FOOTER */
@@ -124,6 +150,7 @@ footer{
     display: flex;  
     flex-direction: column;
     background-color: black;
+    margin-top: 10rem;
 }
 
 
