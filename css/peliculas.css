@@ -7,6 +7,40 @@
     flex-direction: column;
     align-items: center;
     justify-content: top center;
+
+}
+
+.EsqueletoPeliculasSeries{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex; 
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.EsqueletoPeliculasSeries h3{
+    color: aliceblue;
+}
+
+.SeccionTitulo{
+    height: 10vh;
+    width: 100vh;
+
+}
+
+.SeccionGenero{
+    height: 5vh;
+    min-width: 100%;
+}
+
+.SeccionBotones{
+    height: 20vh;
+    min-width: 100%;
+}
+
+.SeccionTexto{
+    height: 50vh;
+    min-width: 100%;
 }
 
 /*------------Titulo-----------/*/
@@ -42,7 +76,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
-     height:500px:
+     height:500px;
 }
 
 #imagenPrincipal{
@@ -95,3 +129,4 @@
         width: 500px !important;
         height: 250px !important;
     }
+}
