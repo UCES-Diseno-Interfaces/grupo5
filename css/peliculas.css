@@ -1,112 +1,58 @@
 
-.estructuraMain{
-    display: flex;
-    padding-left: 10rem;
-    width: 90vw;
-    min-height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top center;
-
-}
-
 .EsqueletoPeliculasSeries{
     min-height: 100vh;
     max-width: 100%;
     display: flex; 
     flex-direction: column;
-    gap: 5rem;
+    gap: 1rem;
+    
+}
+
+.EsqueletoPeliculasSeries h1{
+    color: aliceblue;
+}
+
+.EsqueletoPeliculasSeries h2{
+    color: aliceblue;
 }
 
 .EsqueletoPeliculasSeries h3{
     color: aliceblue;
 }
 
+.EsqueletoPeliculasSeries h4{
+    color: aliceblue;
+}
+
+.EsqueletoPeliculasSeries h5{
+    color: aliceblue;
+}
+.EsqueletoPeliculasSeries h6{
+    color: aliceblue;
+}
+
 .SeccionTitulo{
     height: 10vh;
-    width: 100vh;
-
+    width: 100%;
 }
 
 .SeccionGenero{
-    height: 5vh;
-    min-width: 100%;
+    height: 10vh;
+    width: 100%;
 }
 
 .SeccionBotones{
-    height: 20vh;
-    min-width: 100%;
+    height: 10vh;
+    width: 100%;
 }
 
 .SeccionTexto{
-    height: 50vh;
-    min-width: 100%;
+    height: 30vh;
+    width: 40%;
 }
 
-/*------------Titulo-----------/*/
-.titulodePelicula{
-    position: relative;
-    display:grid;
-    width: 100%;
-    height:fit-content;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-.titulodePelicula h5{
-    color: aliceblue;
-    justify-content: center;
-
-    
-}
-
-/*------------Imagenes y demostraciones -----------/*/
-
-#imagenesPelicula{
-    display: flex;
-    flex-direction: row;
-    justify-content:center ;
-    align-items: center;
-    height: 100%;
-}
-
-.trailer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-     height:500px;
-}
-
-#imagenPrincipal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-#imagenPrincipalItem{
-    height: 345px;
-    width: 238px;
-}
-
-#descripcionPelicula{
-    display: flex;
-    position: relative;
-    color: aliceblue;
-    height: fit-content;
-}
-
-#agregarCarrito{
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-    width: fit-content;
-    position: relative;
-
-
+.botondepago
+{
     border: 1px solid white;
     color: white;
     font-weight: bold;
@@ -116,17 +62,39 @@
     transition-duration: 0.3s;
     cursor: pointer;
     border-radius: 10px;
+    text-decoration: none;
 }
-#agregarCarrito:hover{
+.botondepago:hover 
+{
     background-color: red;
     color: white;
 }
 
+
+
 /*-------------Media****************/
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1050px) {
     /*//////////////////////////INDEX.HTML////////////*/
-    #trailerItem{
-        width: 500px !important;
-        height: 250px !important;
+    .SeccionTexto{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .SeccionTexto{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 575) {
+    /*//////////////////////////INDEX.HTML////////////*/
+}   
+
+
+@media screen and (max-width: 400px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .SeccionTexto{
+        width: 100%;
     }
 }
