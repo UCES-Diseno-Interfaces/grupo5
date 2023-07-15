@@ -52,7 +52,7 @@
 /*/////////////////////////////////////////// MAIN */
 .main{
     width: 100vw;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
 }
 
@@ -61,7 +61,7 @@
     flex-direction: column;
     padding-left: 10rem;
     width: 90vw;
-    min-height: 100vh;
+    min-height: 50vh;
     gap: 3rem;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .mainSegundo{
-    min-height: 100vh;
+    min-height: 50vh;
     max-width: 100%;
     display: flex; 
     flex-wrap: wrap;
@@ -148,6 +148,7 @@
     display: flex;  
     flex-direction: column;
     background-color: black;
+    gap: 5rem;
     margin-top: 5rem;
 }
 
@@ -291,6 +292,5 @@
 
     .footer{
         margin-top: 10rem;
-        background-color: aqua;
     }
 }
