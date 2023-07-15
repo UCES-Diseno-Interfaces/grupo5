@@ -1,78 +1,67 @@
 
-.estructuraMain{
-    display: flex;
-    padding-left: 10rem;
-    width: 90vw;
+.mainPrimeroPelicula{
     min-height: 100vh;
+    max-width: 100%;
+    display: flex; 
     flex-direction: column;
-    align-items: center;
-    justify-content: top center;
+    gap: 2rem;
 }
 
-/*------------Titulo-----------/*/
-.titulodePelicula{
-    position: relative;
-    display:grid;
+
+.mainPrimeroPelicula h1,span{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.mainPrimeroPelicula h2{
+    color: aliceblue;
+}
+
+.mainPrimeroPelicula h3{
+    color: aliceblue;
+}
+
+.mainPrimeroPelicula h4{
+    color: aliceblue;
+}
+
+.mainPrimeroPelicula h5{
+    color: aliceblue;
+}
+.mainPrimeroPelicula h6{
+    color: aliceblue;
+}
+
+.SeccionTitulo{
+    height: 10vh;
     width: 100%;
-    height:fit-content;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
 }
 
-.titulodePelicula h5{
-    color: aliceblue;
-    justify-content: center;
-
-    
+.SeccionAño{
+    height: 5vh;
+    width: 100%;
 }
 
-/*------------Imagenes y demostraciones -----------/*/
+.SeccionGenero{
+    height: 5vh;
+    width: 100%;
+}
 
-#imagenesPelicula{
+.SeccionBotones{
     display: flex;
-    flex-direction: row;
-    justify-content:center ;
-    align-items: center;
-    height: 100%;
+    gap: 2rem;
 }
 
-.trailer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-     height:500px:
+
+.SeccionTexto{
+    height: 20vh;
+    width: 40%;
+    margin-top: 5rem;
 }
 
-#imagenPrincipal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-#imagenPrincipalItem{
-    height: 345px;
-    width: 238px;
-}
-
-#descripcionPelicula{
-    display: flex;
-    position: relative;
-    color: aliceblue;
-    height: fit-content;
-}
-
-#agregarCarrito{
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-    width: fit-content;
-    position: relative;
-
-
+.botondepago
+{
     border: 1px solid white;
     color: white;
     font-weight: bold;
@@ -82,16 +71,39 @@
     transition-duration: 0.3s;
     cursor: pointer;
     border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
 }
-#agregarCarrito:hover{
+
+.botondepago:hover 
+{
     background-color: red;
     color: white;
 }
 
+
+
+
 /*-------------Media****************/
-@media screen and (max-width: 1380px) {
-    /*//////////////////////////INDEX.HTML////////////*/
-    #trailerItem{
-        width: 500px !important;
-        height: 250px !important;
+
+
+@media screen and (max-width: 575px) {
+    .mainPrimeroPelicula{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
     }
+    .SeccionTexto{
+        height: 100%;
+        width: 100%;
+    }
+
+    .SeccionBotones{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
