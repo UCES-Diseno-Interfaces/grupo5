@@ -33,7 +33,6 @@
 }
 
 
-
 .header1{
     display: flex;
     align-items: flex-start;
@@ -76,25 +75,25 @@
     line-height: 22px;
 }
 
-    .search input {
-        position: absolute;
-        width: 0px;
-        float: Left;
-        margin-left: 210px;
-        -webkit-transition: all 0.7s ease-in-out;
-        -moz-transition: all 0.7s ease-in-out;
-        -o-transition: all 0.7s ease-in-out;
-        transition: all 0.7s ease-in-out;
-        height: 30px;
-        line-height: 18px;
-        padding: 0 2px 0 2px;
-        border-radius:1px;
-    }
+.search input {
+    position: absolute;
+    width: 0px;
+    float: Left;
+    margin-left: 210px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 30px;
+    line-height: 18px;
+    padding: 0 2px 0 2px;
+    border-radius:1px;
+}
 
-        .search:hover input, .search input:focus {
-            width: 200px;
-            margin-left: 0px;
-        }
+.search:hover input, .search input:focus {
+    width: 200px;
+    margin-left: 0px;
+}
 
 .btn {
     height: 30px;
@@ -132,7 +131,6 @@
     max-width: 100%;
     display: flex; 
     flex-wrap: wrap;
-
 }
 
 .mainPeliculas{
@@ -142,7 +140,6 @@
     flex-wrap: wrap;
     gap: 3rem;
 }
-
 
 
 .mainMasVistas{
@@ -174,6 +171,10 @@
     margin-top: 2rem;
 }
 
+.subTituloMain a{
+    text-decoration: none;
+}
+
 .subTituloMain h5{
     color: whitesmoke;
 }
@@ -182,7 +183,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .cartas:hover {
@@ -206,6 +207,10 @@
     max-width: 13rem;
     min-height: 13rem;
     max-height: 13em;
+}
+
+.imgCarrusel{
+    width: 100%;
 }
 
 /*/////////////////////////////////////////// FOOTER */
@@ -281,9 +286,9 @@
     .estructuraMain{
         display: flex;
         flex-direction: column;
+        padding-left: 5rem;
     }
 
-    
     .subTituloMain{
         height: 3%;
         width: 100%;
@@ -330,9 +335,8 @@
     }
 
     .estructuraMain{
-        padding-left: 0rem;
+        padding-left: 3rem;
     }
-
 
     .footer1{
         justify-content: center;
@@ -340,15 +344,32 @@
         padding-bottom: 1rem;
         display: contents;
     }
+
+    .subTituloMain{
+        margin-top: 1rem;
+    }
+
 }
+
+
 
 @media screen and (max-width: 300px) {
     /*//////////////////////////INDEX.HTML////////////*/
+
+    .estructuraMain{
+        padding-left: 0rem;
+    }
+
+
     .imgMainSegundo{
-        min-width: 8rem;
-        max-width: 8rem;
-        min-height: 8rem;
-        max-height: 8rem;
+        min-width: 7rem;
+        max-width: 7rem;
+        min-height: 7rem;
+        max-height: 7rem;
+    }
+
+    .cartas{
+        align-items: center;
     }
 
     .seccionMiniaturas{
