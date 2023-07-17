@@ -1,0 +1,167 @@
+.estructuraMainPeliculas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    width: 90vw;
+    min-height: 100vh;
+}
+
+.mainPeliculas{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.mainMasVistasPeliculas{
+    min-height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mainMasVistasPeliculas h5 {
+    color: aliceblue;
+}
+
+.seccionMiniaturasPeliculas{
+    min-height: 80%;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.subTituloMainPeliculas{
+    display: flex;
+    justify-content:space-between;
+    height: 15%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.precioOff{
+    text-decoration:line-through;
+}
+
+
+/*//////////////////////////////////////////////////////   @mediaQuery ////*/
+@media screen and (max-width: 1700px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .seccionMiniaturasPeliculas{
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1380px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .mainMasVistasPeliculas{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .seccionMiniaturasPeliculas{
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .header{
+        position: relative;
+    }
+    .estructuraMainPeliculas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .subTituloMainPeliculas{
+        height: 3%;
+        width: 100%;
+        justify-content:center;
+
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .content{
+        padding-left: 0rem;
+    }
+    .estructuraHeader{
+        padding-left: 0.5rem;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+    .header1{
+        width: auto;
+        flex-direction: row-reverse;
+    }
+
+    .header2{
+        width: 70%;
+        padding-top: 0.5rem;
+    }
+
+    .header1 img{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .logoCarrito{
+        width: 25px!important; 
+        height: 25px!important;
+    }
+
+    .navOculto{
+        display:contents;
+    }
+
+    .estructuraMainPeliculas{
+        padding-left: 0rem;
+    }
+
+
+    .footer1{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        display: contents;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    /*//////////////////////////INDEX.HTML////////////*/
+    .imgMainSegundo{
+        min-width: 8rem;
+        max-width: 8rem;
+        min-height: 8rem;
+        max-height: 8rem;
+    }
+
+    .seccionMiniaturasPeliculas{
+        gap: 2rem;
+    }
+
+    .footer{
+        margin-top: 10rem;
+    }
+}

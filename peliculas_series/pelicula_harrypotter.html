@@ -7,95 +7,137 @@
     <link rel="stylesheet" href="../css/peliculas.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Harry potter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Alquiler de peliculas - Harrt Potter</title>
 </head>
-<body class="content">
-         <header class="header">
-            <div class="estructuraHeader">
-                <div class="header1">
-                    <a href="index.html" class="imagenPeliculas"><img src="../img/logo.png"></a>
-                    <nav class="navbar navbar-expand-sm navbar-dark ">  
-                      <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                              <a class="nav-link" href="../index.html" style="color:whitesmoke;">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="../contactos.html" style="color:whitesmoke;">Contactenos</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="../inciosesion.html" style="color:whitesmoke;">Iniciar Sesion</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="../sobrenos.html" style="color:whitesmoke;">Sobre Nosotros</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </nav>
-                </div>
-                <div class="header2">
-                  <a href="../carrito.html"><svg class="logoCarrito" style="color: white;" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" fill="currentColor" class="bi bi-basket3" viewBox="0 0 16 16">
-                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z"/>
-                      </svg>
-                      </a>
-                </div>
-            </div>     
-            <div class="navOculto">
-              <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="bg-dark p-4">
+<body class="content" style="background-image: url('../img/fondo_peliculas/harry2011.jpg');" >
+    <header class="header">
+      <div class="estructuraHeader">
+          <div class="header1">
+              <a href="../index.html" class="imagenPeliculas"><img src="../img/logo.png"></a>
+              <nav class="navbar navbar-expand-sm navbar-dark ">  
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                           <a class="nav-link" href="../index.html" style="color:whitesmoke;">Inicio</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="../contactos.html" style="color:whitesmoke;">Contactenos</a>
+                          <a class="nav-link" href="../peliculas.html" style="color:whitesmoke;">Peliculas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../series.html" style="color:whitesmoke;">Series</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../alquiler30off.html" style="color:whitesmoke;">Ofertas!</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="../inciosesion.html" style="color:whitesmoke;">Iniciar Sesion</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="../sobrenos.html" style="color:whitesmoke;">Sobre Nosotros</a>
-                        </li>
-                        </ul>
-                  </div>
-              </div> 
-          </div> 
-        </header> 
-        <main class="main">
-            <div class="estructuraMain">
-                    <div class="titulodePelicula">
-                        <h5>Harry Potter y Las Reliquias de la Muerte Parte 2</h5>
-                    </div> 
-                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/HguSMW8XveQ" title="Harry Potter y Las Reliquias de la Muerte Parte 2 Tráiler Oficial HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <div class="imagenesPelicula">
-                        <p id="descripcionPelicula">El final ha llegado. Harry, Hermione y Ron tendrán que recuperar la espada de Gryffindor para encontrar y destruir los últimos horrocruxes. Mientras tanto, Lord Voldemort está a punto de apoderarse por completo de Hogwarts y de conseguir su objetivo: matar a Harry Potter. La única esperanza de Harry es encontrar los horrocruxes antes de que Voldemort lo encuentre a él. Buscando pistas, descubre una antigua y olvidada historia: la leyenda de las reliquias de la muerte, que podría dar al malvado Lord el poder definitivo. Pero el futuro de Harry está escrito desde que nació e incluye una misión para la que se ha estado preparando desde que llegó a Hogwarts: la batalla final contra Voldemort.</p>
+                      </ul>
                     </div>
-                    <img id="imagenPrincipalItem"  src="../img/harry_potter_reliquias_2.jpg">                        
-                    <h4 id="agregarCarrito"><a class="nav-link" href="../carrito.html" style="color:whitesmoke;">Agregar al carrito.</a></h4>                        
+                  </div>
+                </nav>
+          </div>
+          <div class="header2">                  
+                <a href="../carrito.html"><svg class="logoCarrito" style="color: white;" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" fill="currentColor" class="bi bi-basket3" viewBox="0 0 16 16">
+                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z"/>
+                </svg>
+                </a>
+          </div>
+      </div>
+      <div class="estructuraHeader2">
+        <div class="search">
+          <input type="text" class="form-control input-sm" maxlength="45" placeholder=""/>            
+          <button type="submit" class="btn btn-dark btn-sm">Buscar</button>
+        </div>
+      </div>                
+      <div class="navOculto">
+          <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html" style="color:whitesmoke;">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../peliculas.html" style="color:whitesmoke;">Peliculas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../series.html" style="color:whitesmoke;">Series</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../alquiler30off.html" style="color:whitesmoke;">Ofertas!</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../inciosesion.html" style="color:whitesmoke;">Iniciar Sesion</a>
+                    </li>                                                   
+                    </ul>
+              </div>
+          </div> 
+      </div>  
+    </header>  
+    <main class="main" >
+      <div class="estructuraMain" >
+        <div class="mainSegundo">
+          <div class="mainPrimeroPelicula">      
+            <div class="SeccionTitulo">    
+              <h1>Harry Potter</h1>
+              <h4>Las Reliquias de la Muerte Parte 2 </h4>
             </div>
-            </div>      
-        </main>
-        <footer>
-          <div class="footer1">
-            <a class="footerA"  href="../index.html">Inicio</a>
-            <a class="footerA"> · </a>
-            <a class="footerA"  href="../contactos.html">Contactenos</a>
-            <a class="footerA"> · </a>
-            <a class="footerA"  href="../inciosesion.html">Iniciar Sesion</a> 
-            <a class="footerA"> · </a>
-            <a class="footerA"  href="../carrito.html">Carrito de Compras</a>
-            <a class="footerA"> · </a>
-            <a class="footerA"  href="../sobrenos.html">Sobre Nosotros</a>
-          </div>
-          <div class="footer2">           
-            <p class="footerA">Todos Los Derechos Reservados © 2023 Uces Diseño de Interfaces</p>
-          </div>
-      </footer>
+            <div class="SeccionAño">                    
+              <h5>2011</h5>
+            </div>
+            <div class="SeccionGenero">
+              <h6>+13 Acción - Fantasia -  Aventura</h6>
+            </div>
+              <div class="SeccionBotones">                    
+                <a href="#myModal" class="botondepago" data-toggle="modal">Ver trailer</a>
+                <a class="botondepago" href="../carrito.html">Agregar al carrito!</a>  
+              </div>                
+            <div class="SeccionTexto">   
+              <span>El final ha llegado. Harry, Hermione y Ron tendrán que recuperar la espada de Gryffindor para encontrar y destruir los últimos horrocruxes. Mientras tanto, Lord Voldemort está a punto de apoderarse por completo de Hogwarts y de conseguir su objetivo: matar a Harry Potter. La única esperanza de Harry es encontrar los horrocruxes antes de que Voldemort lo encuentre a él. Buscando pistas, descubre una antigua y olvidada historia: la leyenda de las reliquias de la muerte, que podría dar al malvado Lord el poder definitivo. Pero el futuro de Harry está escrito desde que nació e incluye una misión para la que se ha estado preparando desde que llegó a Hogwarts: la batalla final contra Voldemort.</span>                    
+            </div>
+            <!-- Modal -->
+            <div class="ventanaModal ml-2 mt-3">
+              <div id="myModal" class="modal fade">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content modal-lg">
+                          <div class="modal-body modal-lg">
+                              <iframe id="four-seasons-video" width="100%" height="615" src="https://www.youtube.com/embed/HguSMW8XveQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <a class="botondepago" href="../carrito.html">Agregar al carrito!</a>
+                            <button type="button" class="botondepago" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div> 
+        </div>
+      </div>
+      </div>              
+    </main>
+    <footer class="footer">
+      <div class="footer1">
+        <a class="footerA"  href="../index.html">Inicio</a>
+        <a class="footerA"> · </a>
+        <a class="footerA"  href="../peliculas.html">Peliculas</a>
+        <a class="footerA"> · </a>
+        <a class="footerA"  href="../series.html">Series</a> 
+        <a class="footerA"> · </a>
+        <a class="footerA"  href="../carrito.html">Carrito de Compras</a>
+        <a class="footerA"> · </a>
+        <a class="footerA"  href="../sobrenos.html">Sobre Nosotros</a>
+      </div>
+      <div class="footer2">           
+        <p class="footerA">Todos Los Derechos Reservados © 2023 Uces Diseño de Interfaces</p>
+      </div>
+    </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 </body>
 </html>
