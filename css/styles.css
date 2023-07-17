@@ -12,16 +12,27 @@
     width: 90vw;
     min-height: 15%;
     display: flex; 
+    flex-direction: column;
     padding-top: 0.5rem;
 }
 
 .estructuraHeader{
     display: flex;
     position: sticky;
-    padding-left: 10rem;
     width: 90vw;
-    min-height: 15vh;
+    min-height: 5vh;
 }
+
+.estructuraHeader2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: sticky;
+    width: 90vw;
+    min-height: 5vh;
+}
+
+
 
 .header1{
     display: flex;
@@ -49,6 +60,52 @@
     display:none;
 }
 
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+}
+
+    .search input {
+        position: absolute;
+        width: 0px;
+        float: Left;
+        margin-left: 210px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        height: 30px;
+        line-height: 18px;
+        padding: 0 2px 0 2px;
+        border-radius:1px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 200px;
+            margin-left: 0px;
+        }
+
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}
+
+
+
 /*/////////////////////////////////////////// MAIN */
 .main{
     width: 100vw;
@@ -75,8 +132,18 @@
     max-width: 100%;
     display: flex; 
     flex-wrap: wrap;
-    gap: 2rem;
+
 }
+
+.mainPeliculas{
+    min-height: 50vh;
+    max-width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+
 
 .mainMasVistas{
     min-height: 33%;
@@ -104,6 +171,7 @@
     height: 10%;
     max-height: 100%;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .subTituloMain h5{
@@ -143,20 +211,17 @@
 /*/////////////////////////////////////////// FOOTER */
 
 .footer{
-    min-height: 25vh;
+    min-height: 30vh;
     width: 100vw;
     display: flex;  
     flex-direction: column;
     background-color: black;
-    gap: 5rem;
-    margin-top: 5rem;
 }
 
 
 .footer1{
     width: 100%;
-    height: 100%;
-    padding-top: 5rem;
+    height: 20vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;  
